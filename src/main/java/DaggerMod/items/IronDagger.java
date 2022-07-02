@@ -1,14 +1,14 @@
-package examplemod.examples;
+package daggermod.daggers;
 
 import necesse.inventory.item.toolItem.swordToolItem.CustomSwordToolItem;
 
 // Extends CustomSwordToolItem
-public class ExampleSwordItem extends CustomSwordToolItem {
+public class IronDagger extends CustomSwordToolItem {
 
     // Weapon attack textures are loaded from resources/player/weapons/<itemStringID>
 
-    public ExampleSwordItem() {
-        super(Rarity.UNCOMMON, 300, 20, 120, 100, 400);
+    public IronDagger() {
+        super(125, 22, 25, 20, 100);
     }
 
 }
