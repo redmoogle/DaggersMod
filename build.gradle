@@ -9,8 +9,8 @@ project.ext.modID = "redmoogle.daggers" // The unique id of your mod. Must be al
 project.ext.modName = "Daggers Mod" // The display name of your mod.
 project.ext.modVersion = "1.0" // Your current builds version. Must follow the xx.xx... format.
 project.ext.gameVersion = "0.21.23" // The target game version.
-project.ext.modDescription = "A Mod that adds 7 variants of daggers" // Short description of what your mod is.
-project.ext.author = "Redoogle" // Your name
+project.ext.modDescription = "A mod that adds 7 variants of daggers" // Short description of what your mod is.
+project.ext.author = "redmoogle" // Your name
 
 /**
  * When setting clientside to true, it means servers do not need this mod for clients to connect and vice versa.

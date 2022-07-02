@@ -1,4 +1,4 @@
-package daggermod.daggers;
+package daggermod.items;
 
 import necesse.inventory.item.toolItem.swordToolItem.CustomSwordToolItem;
 import necesse.inventory.item.Item;
