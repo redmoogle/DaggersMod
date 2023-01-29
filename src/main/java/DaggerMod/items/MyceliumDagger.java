@@ -3,12 +3,12 @@ package DaggerMod.items;
 import necesse.inventory.item.toolItem.swordToolItem.CustomSwordToolItem;
 
 // Extends CustomSwordToolItem
-public class CopperDagger extends CustomSwordToolItem {
+public class MyceliumDagger extends CustomSwordToolItem {
 
     // Weapon attack textures are loaded from resources/player/weapons/<itemStringID>
 
-    public CopperDagger() {
-        super(125, 19, 25, 20, 100);
+    public MyceliumDagger() {
+        super(125, 30, 25, 20, 100);
     }
 
 }

@@ -1,6 +1,6 @@
-package daggermod;
+package DaggerMod;
 
-import daggermod.items.*;
+import DaggerMod.items.*;
 import necesse.engine.modLoader.annotations.ModEntry;
 import necesse.engine.registries.*;
 import necesse.inventory.recipe.Ingredient;
@@ -19,6 +19,7 @@ public class DaggerMod {
         ItemRegistry.registerItem("frostdagger", new FrostDagger(), 200, true);
         ItemRegistry.registerItem("demonicdagger", new DemonicDagger(), 400, true);
         ItemRegistry.registerItem("tungstendagger", new TungstenDagger(), 600, true);
+        ItemRegistry.registerItem("myceliumdagger", new MyceliumDagger(), 700, true);
     }
 
     public void postInit() {
@@ -69,6 +70,14 @@ public class DaggerMod {
                 RecipeTechRegistry.ADVANCED_WORKSTATION,
                 new Ingredient[]{
                         new Ingredient("tungstenbar", 10)
+                }
+        ));
+
+        Recipes.registerModRecipe(new Recipe(
+                "myceliumdagger",
+                RecipeTechRegistry.ADVANCED_WORKSTATION,
+                new Ingredient[]{
+                        new Ingredient("myceliumbar", 10)
                 }
         ));
     }
