@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "gradle",
+			"id": "c:\\Users\\dakot\\Documents\\GitHub\\DaggersModrunDevClientExampleMod",
+			"script": "clean buildModJar runDevClient",
+			"description": "Run client with current mod",
+			"group": "necesse",
+			"project": "ExampleMod",
+			"buildFile": "C:\\Users\\dakot\\Documents\\GitHub\\DaggersMod\\build.gradle",
+			"rootProject": "ExampleMod",
+			"projectFolder": "c:\\Users\\dakot\\Documents\\GitHub\\DaggersMod",
+			"workspaceFolder": "c:\\Users\\dakot\\Documents\\GitHub\\DaggersMod",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: runDevClient"
+		}
+	]
+}

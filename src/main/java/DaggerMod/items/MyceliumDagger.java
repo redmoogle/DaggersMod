@@ -1,14 +1,19 @@
 package DaggerMod.items;
 
-import necesse.inventory.item.toolItem.swordToolItem.CustomSwordToolItem;
+import necesse.inventory.item.toolItem.swordToolItem.SwordToolItem;
 
 // Extends CustomSwordToolItem
-public class MyceliumDagger extends CustomSwordToolItem {
+public class MyceliumDagger extends SwordToolItem {
 
     // Weapon attack textures are loaded from resources/player/weapons/<itemStringID>
 
     public MyceliumDagger() {
-        super(125, 30, 25, 20, 100);
+        super(1000);
+        this.rarity = Rarity.UNCOMMON;
+        this.attackAnimTime.setBaseValue(125);
+        this.attackDamage.setBaseValue(30.0F).setUpgradedValue(1.0F, 200.0F);
+        this.attackRange.setBaseValue(25);
+        this.knockback.setBaseValue(100);
     }
 
 }
